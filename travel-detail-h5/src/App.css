@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  width: 100%;
+  background-color: "rbga(2, 255, 255, 0.5)";
+  overflow-x:hidden;
+}
+
+.App-header {
+  background-color: "rbga(255, 255, 255, 0.5)";
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* font-size: calc(10px + 2vmin); */
+  color: "rbga(255, 255, 255, 0.5)";
+  width: 100%
+  
+}
+
+.image{
+  width: 100%; 
+  object-fit: contain; 
+}
+
+.page-content {
+  text-align: left;
+  width: 100%;
+  margin: auto;
+  margin:20px
+
+}
+
+
+.tuucontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-size: 1.5em;
+  position: relative;
+  right: 25px;
+  bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 10px;
+  margin-top: 10px;
+}
+
+.App-footer {
+  padding: 10px;
+  /* display: flex; */
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment-box {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.interaction-icons {
+ 
+
+  
+  /* padding: 20px; */
+ 
+  border-width: 2px;  
+  
+  
+}
+.footer {
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  /* background-color: rgba(71, 69, 69, 0.1); */
+  border-radius: 30px;
+  color: white;
+  justify-content: space-between;
+  height: 40px;
+  width: auto;
+  margin:0 10px;
+  padding: 0 10px;
+  width: 90%;
+}
+ 
+.footer .content {
+  padding: 10px;
+}
+
+.interaction-icons > span {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.redirect-button{
+  background-color: rgb(255, 255, 255);
+  /* border: #ba3737; */
+  /* border-radius: 20%; */
+  font-size:large;
+  width: 170px;
+  height: 40px;
+  position: relative;
+  top: 60px;
+
+}
+.description {
+  width: 92%;
+  height: auto;
+  font-size: 1.1em;
+  margin-top: 15px;
+}
+.tags{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: 10px; */
+  margin-top: 20px;
+  /* background-color: red; */
+  padding:0 10px;
+  width: auto;
+  height: 40px;
+  align-items: center;
+}
